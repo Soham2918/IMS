@@ -1,0 +1,30 @@
+.header{
+height: 5rem;
+}
+
+.container-fluid{
+    height: 27rem  !important;
+}
+footer{
+    height: 4rem !important;
+}
+
+img{
+    width: 15% !important;
+}
+
+a{
+    color: rgb(88, 88, 219);
+    font-weight: bold;
+}
+
+.avtar{
+    width: 7%;
+    border-radius: 50%;
+}
+
+.card{
+    height: 23rem;
+    width: 80%;
+}
+

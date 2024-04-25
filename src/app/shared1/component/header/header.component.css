@@ -1,0 +1,30 @@
+.navbar{
+    height: 4rem;
+    }
+    
+    .container{
+        height: 2rem;
+    }
+
+    
+    img{
+        width: 12%;
+    }
+    
+    a{
+        color: rgb(88, 88, 219);
+        font-weight: bold;
+    }
+    
+    .avtar{
+        width: 6%;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    
+        .enq{
+            background-color: rgb(186, 205, 214);
+            line-height:25px;
+        }
+      
