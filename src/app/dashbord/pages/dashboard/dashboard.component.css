@@ -1,13 +1,11 @@
-.header{
-height: 5rem;
+body{
+    height: 100vh;
 }
 
 .container-fluid{
-    height: 27rem  !important;
+    height: 74vh  !important;
 }
-footer{
-    height: 4rem !important;
-}
+
 
 img{
     width: 15% !important;

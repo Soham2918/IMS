@@ -1,0 +1,11 @@
+.container{
+    height: 63vh;
+}
+
+mat-card{
+    height: 30vh;
+}
+
+img{
+    width: 200%;
+}
