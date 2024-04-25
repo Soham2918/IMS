@@ -1,7 +1,11 @@
 .mcard1{
-    height: 26rem;
+    height:71vh;
 }
 
 .mcard{
-    height: 18rem;
+    height:50vh;
+}
+
+img{
+    height: 20vh;
 }

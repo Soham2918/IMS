@@ -1,14 +1,13 @@
 .navbar{
-    height: 4rem;
+    height: 10vh;
+    line-height: 10vh;
     }
     
-    .container{
-        height: 2rem;
-    }
+
 
     
     img{
-        width: 12%;
+        width: 22%;
     }
     
     a{
@@ -17,14 +16,19 @@
     }
     
     .avtar{
-        width: 6%;
-        border-radius: 50%;
-        margin-bottom: 10px;
+        width: 6% !important; 
+        border-radius: 50% !important;
+        height: 10% !important;
+        line-height: 10vh !important;
+        
     }
 
     
         .enq{
             background-color: rgb(186, 205, 214);
-            line-height:25px;
+            line-height:4vh;
+            height: 4vh;
         }
+
+     
       

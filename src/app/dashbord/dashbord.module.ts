@@ -7,6 +7,7 @@ import { SubcontentComponent } from './component/subcontent/subcontent.component
 import { LoginformComponent } from './component/loginform/loginform.component';
 import { MaterialModule } from '../material/material.module';
 import { AboutComponent } from './pages/dashboard/about/about.component';
+import { ContactComponent } from './pages/dashboard/contact/contact.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { AboutComponent } from './pages/dashboard/about/about.component';
     DashboardComponent,
     SubcontentComponent,
     LoginformComponent,
-    AboutComponent
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     CommonModule,
