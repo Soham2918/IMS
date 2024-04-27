@@ -3,6 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { AboutComponent } from './pages/dashboard/about/about.component';
 import { ContactComponent } from './pages/dashboard/contact/contact.component';
+import { RegisterationComponent } from './pages/dashboard/registeration/registeration.component';
+import { PagenotfoundComponent } from './component/pagenotfound/pagenotfound.component';
 
 const routes: Routes = [
   {
@@ -17,6 +19,13 @@ const routes: Routes = [
     },
     {
       path:'contact',component:ContactComponent
+    },
+
+    {
+      path:'register',component:RegisterationComponent
+    },
+    {
+      path:'**',component:PagenotfoundComponent
     }
 
 ];

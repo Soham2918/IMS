@@ -8,6 +8,8 @@ import { LoginformComponent } from './component/loginform/loginform.component';
 import { MaterialModule } from '../material/material.module';
 import { AboutComponent } from './pages/dashboard/about/about.component';
 import { ContactComponent } from './pages/dashboard/contact/contact.component';
+import { RegisterationComponent } from './pages/dashboard/registeration/registeration.component';
+import { PagenotfoundComponent } from './component/pagenotfound/pagenotfound.component';
 
 
 @NgModule({
@@ -16,7 +18,9 @@ import { ContactComponent } from './pages/dashboard/contact/contact.component';
     SubcontentComponent,
     LoginformComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    RegisterationComponent,
+    PagenotfoundComponent
   ],
   imports: [
     CommonModule,
