@@ -10,6 +10,8 @@ import { AboutComponent } from './pages/dashboard/about/about.component';
 import { ContactComponent } from './pages/dashboard/contact/contact.component';
 import { RegisterationComponent } from './pages/dashboard/registeration/registeration.component';
 import { PagenotfoundComponent } from './component/pagenotfound/pagenotfound.component';
+import { ShowfacultyComponent } from './pages/showfaculty/showfaculty.component';
+import { AchivementsComponent } from './pages/achivements/achivements.component';
 
 
 @NgModule({
@@ -20,7 +22,9 @@ import { PagenotfoundComponent } from './component/pagenotfound/pagenotfound.com
     AboutComponent,
     ContactComponent,
     RegisterationComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    ShowfacultyComponent,
+    AchivementsComponent
   ],
   imports: [
     CommonModule,

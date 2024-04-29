@@ -5,6 +5,8 @@ import { AboutComponent } from './pages/dashboard/about/about.component';
 import { ContactComponent } from './pages/dashboard/contact/contact.component';
 import { RegisterationComponent } from './pages/dashboard/registeration/registeration.component';
 import { PagenotfoundComponent } from './component/pagenotfound/pagenotfound.component';
+import { ShowfacultyComponent } from './pages/showfaculty/showfaculty.component';
+import { AchivementsComponent } from './pages/achivements/achivements.component';
 
 const routes: Routes = [
   {
@@ -24,6 +26,13 @@ const routes: Routes = [
     {
       path:'register',component:RegisterationComponent
     },
+    {
+      path:'showfaculty',component:ShowfacultyComponent
+    },
+    {
+      path:'achivement',component:AchivementsComponent
+    },
+
     {
       path:'**',component:PagenotfoundComponent
     }
