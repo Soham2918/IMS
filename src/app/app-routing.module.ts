@@ -3,10 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from './dashbord/pages/dashboard/dashboard.component';
 import { DashbordModule } from './dashbord/dashbord.module';
 
-const routes: Routes = [{
-   path:'',redirectTo:'dashboard',pathMatch:'full'},
-{ path:'dashboard',loadChildren:()=>import('./dashbord/dashbord.module').then(m=>m.DashbordModule)
-},
+const routes: Routes = [
+{path:'',redirectTo:'dashboard',pathMatch:'full'},
+
+{ path:'dashboard',loadChildren:()=>import('./dashbord/dashbord.module').then(m=>m.DashbordModule)},
+
+{path:'admin',loadChildren:()=>import('./admin/admin.module').then(m=>m.AdminModule)},
+
 ];
 
 @NgModule({

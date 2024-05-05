@@ -8,19 +8,26 @@ import { HeaderComponent } from './shared1/component/header/header.component';
 import { FooterComponent } from './shared1/component/footer/footer.component';
 import { MaterialModule } from './material/material.module';
 import { SharedComponent } from './shared1/pages/shared/shared.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    SharedComponent
+    SharedComponent,
+    
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
-    DashbordModule
+    DashbordModule,
+    FormsModule,
+    ReactiveFormsModule
+    
+    
     
     
   ],

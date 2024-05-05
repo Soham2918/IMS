@@ -12,7 +12,7 @@ import { RegisterationComponent } from './pages/dashboard/registeration/register
 import { PagenotfoundComponent } from './component/pagenotfound/pagenotfound.component';
 import { ShowfacultyComponent } from './pages/showfaculty/showfaculty.component';
 import { AchivementsComponent } from './pages/achivements/achivements.component';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -24,12 +24,14 @@ import { AchivementsComponent } from './pages/achivements/achivements.component'
     RegisterationComponent,
     PagenotfoundComponent,
     ShowfacultyComponent,
-    AchivementsComponent
+    AchivementsComponent,
   ],
   imports: [
     CommonModule,
     DashbordRoutingModule,
     MaterialModule,
+    FormsModule,
+    ReactiveFormsModule
     
   ]
 })
